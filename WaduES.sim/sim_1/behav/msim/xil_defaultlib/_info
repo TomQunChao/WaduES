@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/workspace/vivadoProjects/WaduES/WaduES.sim/sim_1/behav
+vControl
+Z1 !s110 1544844944
+!i10b 1
+!s100 <4ojYmbRAC[3`Q2D]h__62
+IV_Y<ndV7CQB<b5TIY_HWn2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544842991
+8../../../WaduES.srcs/sources_1/new/Control.v
+F../../../WaduES.srcs/sources_1/new/Control.v
+L0 3
+Z3 OP;L;10.4c;61
+r1
+!s85 0
+31
+Z4 !s108 1544844944.000000
+Z5 !s107 ../../../WaduES.srcs/sim_1/new/oled_tb.v|../../../WaduES.srcs/sources_1/new/Control.v|../../../WaduES.srcs/sources_1/new/Display_OLED.v|
+Z6 !s90 -64|-incr|-work|xil_defaultlib|../../../WaduES.srcs/sources_1/new/Display_OLED.v|../../../WaduES.srcs/sources_1/new/Control.v|../../../WaduES.srcs/sim_1/new/oled_tb.v|
+!i113 1
+Z7 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@control
+vDisplay_OLED
+R1
+!i10b 1
+!s100 >A;NXfQ2RoobJ^QCi>m9@3
+I=h=FNlL0M?4FSWZ[T8PeF3
+R2
+R0
+w1544843430
+8../../../WaduES.srcs/sources_1/new/Display_OLED.v
+F../../../WaduES.srcs/sources_1/new/Display_OLED.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@display_@o@l@e@d
+vglbl
+R1
+!i10b 1
+!s100 g=dL3UKAkhNRkQ:7=fPzF1
+IkJ@CGO[n5[_3E=ZkTzmEk2
+R2
+R0
+w1464879896
+8glbl.v
+Fglbl.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 1
+R7
+voled_tb
+R1
+!i10b 1
+!s100 ?o^=id1P[5nhR2V]N63_43
+IZge[]f[ShQ8Jm>ki[F]8S1
+R2
+R0
+w1544843572
+8../../../WaduES.srcs/sim_1/new/oled_tb.v
+F../../../WaduES.srcs/sim_1/new/oled_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

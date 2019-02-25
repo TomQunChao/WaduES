@@ -1,0 +1,83 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Dec 26 23:12:21 2018
+| Host         : DESKTOP-OQOH3V3 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Control_control_sets_placed.rpt
+| Design       : Control
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    30 |
+| Unused register locations in slices containing registers |   157 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               3 |            3 |
+| No           | No                    | Yes                    |              61 |           20 |
+| No           | Yes                   | No                     |              32 |            8 |
+| Yes          | No                    | No                     |              32 |           14 |
+| Yes          | No                    | Yes                    |              58 |           25 |
+| Yes          | Yes                   | No                     |              25 |            7 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------+-----------------------------+-------------------------+------------------+----------------+
+|    Clock Signal   |        Enable Signal        |     Set/Reset Signal    | Slice Load Count | Bel Load Count |
++-------------------+-----------------------------+-------------------------+------------------+----------------+
+|  d7d/display7_clk |                             |                         |                1 |              1 |
+|  clk_IBUF_BUFG    | d/oled_data_out0_out        |                         |                1 |              1 |
+|  clk_IBUF_BUFG    | d/oled_rst_n_out5_out       |                         |                1 |              1 |
+|  clk_IBUF_BUFG    | btd/tx_reg                  | d7d/cnt_reg[0]_0        |                1 |              1 |
+|  clk_IBUF_BUFG    | br/p_0_in[0]                | d7d/cnt_reg[0]_0        |                1 |              1 |
+|  clk_IBUF_BUFG    | br/p_0_in[1]                | d7d/cnt_reg[0]_0        |                1 |              1 |
+|  clk_IBUF_BUFG    | br/p_0_in[2]                | d7d/cnt_reg[0]_0        |                1 |              1 |
+|  clk_IBUF_BUFG    | br/p_0_in[3]                | d7d/cnt_reg[0]_0        |                1 |              1 |
+|  clk_IBUF_BUFG    | br/p_0_in[4]                | d7d/cnt_reg[0]_0        |                1 |              1 |
+|  clk_IBUF_BUFG    | br/p_0_in[5]                | d7d/cnt_reg[0]_0        |                1 |              1 |
+|  clk_IBUF_BUFG    | br/p_0_in[6]                | d7d/cnt_reg[0]_0        |                1 |              1 |
+|  clk_IBUF_BUFG    | br/p_0_in[7]                | d7d/cnt_reg[0]_0        |                1 |              1 |
+|  clk_IBUF_BUFG    | ce/over_i_1_n_0             | d7d/cnt_reg[0]_0        |                1 |              1 |
+|  clk_IBUF_BUFG    |                             |                         |                2 |              2 |
+|  clk_IBUF_BUFG    | d/last_size                 |                         |                1 |              4 |
+|  clk_IBUF_BUFG    | d/shift_cnt                 |                         |                1 |              4 |
+|  clk_IBUF_BUFG    | br/num                      | d7d/cnt_reg[0]_0        |                1 |              4 |
+|  clk_IBUF_BUFG    | br/E[0]                     | d7d/cnt_reg[0]_0        |                1 |              4 |
+|  clk_IBUF_BUFG    | bt/num                      | d7d/cnt_reg[0]_0        |                2 |              4 |
+|  clk_IBUF_BUFG    | ce/last_last[3]_i_1_n_0     | d7d/cnt_reg[0]_0        |                1 |              4 |
+|  clk_IBUF_BUFG    | ce/last_size                | d7d/cnt_reg[0]_0        |                1 |              4 |
+|  clk_IBUF_BUFG    | d/char_reg[4]_i_1_n_0       |                         |                1 |              5 |
+|  clk_IBUF_BUFG    | d/data_state_cnt[4]_i_1_n_0 | d7d/cnt_reg[0]_0        |                3 |              5 |
+|  clk_IBUF_BUFG    | ce/es[5]_i_1_n_0            | d7d/cnt_reg[0]_0        |                2 |              6 |
+|  clk_IBUF_BUFG    | d/data_reg                  |                         |                6 |              8 |
+|  clk_IBUF_BUFG    | br/rx_data[7]_i_1_n_0       | d7d/cnt_reg[0]_0        |                2 |              8 |
+|  clk_IBUF_BUFG    | d/temp_cnt[8]_i_1_n_0       |                         |                3 |              9 |
+|  clk_IBUF_BUFG    | ce/neg_rx_bps_en            | d7d/cnt_reg[0]_0        |                2 |              9 |
+|  clk_IBUF_BUFG    | d/delay_cnt[25]_i_2_n_0     | d/delay_cnt[25]_i_1_n_0 |                7 |             25 |
+|  clk_IBUF_BUFG    |                             | d7d/cnt_reg[0]_0        |               28 |             93 |
++-------------------+-----------------------------+-------------------------+------------------+----------------+
+
+

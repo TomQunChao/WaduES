@@ -1,0 +1,592 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Dec 26 23:10:51 2018
+# Process ID: 13224
+# Current directory: D:/workspace/vivadoProjects/WaduES/WaduES.runs/synth_1
+# Command line: vivado.exe -log Control.vds -mode batch -messageDb vivado.pb -notrace -source Control.tcl
+# Log file: D:/workspace/vivadoProjects/WaduES/WaduES.runs/synth_1/Control.vds
+# Journal file: D:/workspace/vivadoProjects/WaduES/WaduES.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Control.tcl -notrace
+Command: synth_design -top Control -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12856 
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:3]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:4]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:6]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:7]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:8]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:9]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:11]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:12]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:13]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:14]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:15]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:16]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:18]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:19]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:20]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:21]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:26]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:27]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:28]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:29]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:30]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:31]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:32]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:33]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:34]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:35]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:36]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:38]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:39]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:40]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:41]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:42]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:43]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:44]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:45]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:46]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:47]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:48]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:49]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:50]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:51]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:52]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:53]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:54]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:55]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:56]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:57]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:58]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:59]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:60]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:61]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:62]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:63]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:64]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:65]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:66]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:67]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:68]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:69]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/commands.vh:71]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 315.309 ; gain = 107.625
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Control' [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Control.v:4]
+INFO: [Synth 8-638] synthesizing module 'Zoomer' [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Zoomer.v:3]
+INFO: [Synth 8-256] done synthesizing module 'Zoomer' (1#1) [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Zoomer.v:3]
+INFO: [Synth 8-638] synthesizing module 'cal_es' [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/cal_es.v:3]
+INFO: [Synth 8-256] done synthesizing module 'cal_es' (2#1) [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/cal_es.v:3]
+INFO: [Synth 8-638] synthesizing module 'Display_OLED' [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:5]
+INFO: [Synth 8-226] default block is never used [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:92]
+WARNING: [Synth 8-5788] Register clk_div_reg in module Display_OLED is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:81]
+WARNING: [Synth 8-5788] Register oled_rst_n_out_reg in module Display_OLED is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:136]
+WARNING: [Synth 8-5788] Register data_state_back_reg in module Display_OLED is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:141]
+WARNING: [Synth 8-5788] Register oled_dc_out_reg in module Display_OLED is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:141]
+WARNING: [Synth 8-5788] Register char_reg_reg in module Display_OLED is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:141]
+WARNING: [Synth 8-5788] Register last_size_reg in module Display_OLED is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:171]
+WARNING: [Synth 8-5788] Register shift_cnt_reg in module Display_OLED is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:186]
+WARNING: [Synth 8-5788] Register oled_data_out_reg in module Display_OLED is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:193]
+WARNING: [Synth 8-5788] Register data_reg_reg in module Display_OLED is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:193]
+WARNING: [Synth 8-5788] Register temp_cnt_reg in module Display_OLED is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:209]
+WARNING: [Synth 8-5788] Register delay_cnt_reg in module Display_OLED is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:248]
+WARNING: [Synth 8-3848] Net cmd_r[18] in module/entity Display_OLED does not have driver. [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:26]
+INFO: [Synth 8-256] done synthesizing module 'Display_OLED' (3#1) [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_OLED.v:5]
+INFO: [Synth 8-638] synthesizing module 'bluetooth_divider' [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/bluetooth_divider.v:3]
+	Parameter CLK_PARAMA bound to: 10416 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'bluetooth_divider' (4#1) [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/bluetooth_divider.v:3]
+INFO: [Synth 8-638] synthesizing module 'bluetooth_rx' [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/bluetooth_rx.v:4]
+INFO: [Synth 8-256] done synthesizing module 'bluetooth_rx' (5#1) [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/bluetooth_rx.v:4]
+INFO: [Synth 8-638] synthesizing module 'bluetooth_tx' [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/bluetooth_tx.v:3]
+INFO: [Synth 8-256] done synthesizing module 'bluetooth_tx' (6#1) [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/bluetooth_tx.v:3]
+INFO: [Synth 8-638] synthesizing module 'display7_divider' [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/display7_divider.v:3]
+	Parameter CLK_PARAMA bound to: 200000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'display7_divider' (7#1) [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/display7_divider.v:3]
+INFO: [Synth 8-638] synthesizing module 'Display_7' [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_7.v:3]
+WARNING: [Synth 8-567] referenced signal 'es0' should be on the sensitivity list [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_7.v:22]
+WARNING: [Synth 8-567] referenced signal 'es1' should be on the sensitivity list [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_7.v:22]
+INFO: [Synth 8-226] default block is never used [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_7.v:41]
+WARNING: [Synth 8-567] referenced signal 'data' should be on the sensitivity list [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_7.v:39]
+INFO: [Synth 8-256] done synthesizing module 'Display_7' (8#1) [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Display_7.v:3]
+WARNING: [Synth 8-3848] Net bluetooth_en in module/entity Control does not have driver. [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Control.v:18]
+INFO: [Synth 8-256] done synthesizing module 'Control' (9#1) [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/Control.v:4]
+WARNING: [Synth 8-3331] design Control has unconnected port bluetooth_en
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 337.289 ; gain = 129.605
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 337.289 ; gain = 129.605
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/constrs_1/new/control_xdc.xdc]
+Finished Parsing XDC File [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/constrs_1/new/control_xdc.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/constrs_1/new/control_xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Control_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Control_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 644.418 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 644.418 ; gain = 436.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 644.418 ; gain = 436.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 644.418 ; gain = 436.734
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "posi_r" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "reac" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reac" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reac" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reac" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/workspace/vivadoProjects/WaduES/WaduES.srcs/sources_1/new/cal_es.v:50]
+INFO: [Synth 8-5546] ROM "user_pos" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "data_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "data_state" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "run_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "shift_flag" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "shift_flag" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "oled_rst_n_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "data_state_back" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "char_reg" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5544] ROM "temp_cnt" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "delay_cnt" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mem" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "clk_div" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "bps_en" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bps_en" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 644.418 ; gain = 436.734
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               26 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 5     
+	                4 Bit    Registers := 7     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 19    
++---Muxes : 
+	  41 Input     64 Bit        Muxes := 4     
+	   7 Input     64 Bit        Muxes := 1     
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     26 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   6 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 11    
+	  11 Input      8 Bit        Muxes := 2     
+	  24 Input      8 Bit        Muxes := 4     
+	   6 Input      8 Bit        Muxes := 2     
+	  16 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	  29 Input      3 Bit        Muxes := 1     
+	  11 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 18    
+	  11 Input      1 Bit        Muxes := 2     
+	  24 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 12    
+	   3 Input      1 Bit        Muxes := 5     
+	   7 Input      1 Bit        Muxes := 1     
+	  29 Input      1 Bit        Muxes := 3     
+	  15 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Zoomer 
+Detailed RTL Component Info : 
++---Muxes : 
+	  41 Input     64 Bit        Muxes := 4     
+	  11 Input      2 Bit        Muxes := 1     
+Module cal_es 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	  11 Input      8 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 2     
+Module Display_OLED 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   7 Input     64 Bit        Muxes := 1     
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input     26 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   6 Input      9 Bit        Muxes := 1     
+	  24 Input      8 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 6     
+	   6 Input      8 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	  29 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+	  24 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 12    
+	   3 Input      1 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 1     
+	  29 Input      1 Bit        Muxes := 3     
+	  15 Input      1 Bit        Muxes := 1     
+Module bluetooth_divider 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module bluetooth_rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module bluetooth_tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module display7_divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Display_7 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  16 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 644.418 ; gain = 436.734
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "data_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_div" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_div" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design Control has unconnected port bluetooth_en
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 644.418 ; gain = 436.734
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 644.418 ; gain = 436.734
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'bt/rx_bps_en_r_reg' (FDC) to 'ce/rx_en_r_reg'
+INFO: [Synth 8-3886] merging instance 'd/data_state_back_reg[1]' (FDE) to 'd/data_state_back_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\d/data_state_back_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\d/data_state_back_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\bt/tx_data_r_reg[0] )
+INFO: [Synth 8-3886] merging instance 'ce/es_reg[6]' (FDCE) to 'ce/es_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ce/es_reg[7]' (FDCE) to 'ce/es_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\d/oled_dc_out_reg )
+WARNING: [Synth 8-3332] Sequential element (ce/es_reg[7]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (ce/es_reg[6]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (d/char_reg_reg[7]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (d/char_reg_reg[6]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (d/char_reg_reg[5]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (d/data_state_back_reg[2]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (d/data_state_back_reg[1]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (d/data_state_back_reg[0]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (d/data_state_reg[1]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (d/oled_dc_out_reg) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (bt/tx_data_r_reg[0]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (bt/rx_bps_en_r_reg) is unused and will be removed from module Control.
+INFO: [Synth 8-3886] merging instance 'i_12/brd/cnt_reg[15]' (FDC) to 'i_12/btd/cnt_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_12/\btd/cnt_reg[15] )
+INFO: [Synth 8-3886] merging instance 'd/data_state_cnt_reg[7]' (FDCE) to 'd/data_state_cnt_reg[6]'
+INFO: [Synth 8-3886] merging instance 'd/data_state_cnt_reg[5]' (FDCE) to 'd/data_state_cnt_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\d/data_state_cnt_reg[6] )
+WARNING: [Synth 8-3332] Sequential element (d/data_state_cnt_reg[7]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (d/data_state_cnt_reg[6]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (d/data_state_cnt_reg[5]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (brd/cnt_reg[15]) is unused and will be removed from module Control.
+WARNING: [Synth 8-3332] Sequential element (btd/cnt_reg[15]) is unused and will be removed from module Control.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 644.418 ; gain = 436.734
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 644.418 ; gain = 436.734
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 644.418 ; gain = 436.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 644.418 ; gain = 436.734
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 644.703 ; gain = 437.020
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 644.703 ; gain = 437.020
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 644.703 ; gain = 437.020
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 644.703 ; gain = 437.020
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 644.703 ; gain = 437.020
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 644.703 ; gain = 437.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 644.703 ; gain = 437.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 644.703 ; gain = 437.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 644.703 ; gain = 437.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    27|
+|3     |LUT1   |    74|
+|4     |LUT2   |   110|
+|5     |LUT3   |    32|
+|6     |LUT4   |    52|
+|7     |LUT5   |    59|
+|8     |LUT6   |   203|
+|9     |MUXF7  |     2|
+|10    |FDCE   |   106|
+|11    |FDPE   |    13|
+|12    |FDRE   |    92|
+|13    |IBUF   |     3|
+|14    |OBUF   |    24|
+|15    |OBUFT  |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+--------------------+------+
+|      |Instance |Module              |Cells |
++------+---------+--------------------+------+
+|1     |top      |                    |   799|
+|2     |  br     |bluetooth_rx        |    43|
+|3     |  brd    |bluetooth_divider   |    42|
+|4     |  bt     |bluetooth_tx        |    25|
+|5     |  btd    |bluetooth_divider_0 |    43|
+|6     |  ce     |cal_es              |   141|
+|7     |  d      |Display_OLED        |   358|
+|8     |  d7     |Display_7           |     2|
+|9     |  d7d    |display7_divider    |   116|
++------+---------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 644.703 ; gain = 437.020
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 18 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 644.703 ; gain = 110.199
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 644.703 ; gain = 437.020
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 30 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+73 Infos, 95 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 644.703 ; gain = 420.797
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 644.703 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 26 23:11:30 2018...
